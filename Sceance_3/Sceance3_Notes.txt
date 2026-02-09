@@ -1,0 +1,37 @@
+/----------What is NPM?----------/
+
+NPM is a package manager for JavaScript.
+It provides thousands of reusable modules created by third-party developers.
+The official site is npmjs.com 
+
+/----------Install Package----------/
+- npm i 'Name Of Package'
+
+- npm i 'Name Of Package'@Version   (Install a Scpecific Version)
+
+-If u Clone a repo with Package.json just do :
+    npm Install
+To install all packages
+
+/----------Install Dev Dependencies----------/
+- "dev dependencies are packages needed only during the development phase
+of an application, but not for its production build"
+
+- npm i nodemon -D
+
+/----------Update Package Version----------/
+- npm update
+
+
+/----------Uninstall Package----------/
+- npm rm 'Name Of Package'
+
+- npm rm 'Name Of Package' -D  (For devDependencies like Nodemon)
+
+
+/----------Semantic Versioning----------/
+
+NPM uses semantic versioning (Major.Minor.Patch) to manage updates .
+- The ^ (caret) symbol allows minor and patch updates  but prevents major version 
+updates that could introduce breaking changes.
+- The ~ (tilde) symbol  allows patch updates only .
