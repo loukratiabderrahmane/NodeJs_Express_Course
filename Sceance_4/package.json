@@ -6,10 +6,11 @@
   "author": "",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "dev": "npx nodemon index"
-  },
+ "scripts": {
+  "start": "node index.js",
+  "dev": "npx nodemon index"
+}
+,
   "devDependencies": {
     "nodemon": "^3.1.11"
   },
