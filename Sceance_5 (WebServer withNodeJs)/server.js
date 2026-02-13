@@ -1,17 +1,18 @@
 const http = require('http');
+
 const path = require('path');
-const fs = require('fs')
+const fs = require('fs');
 const fsPromises = require('fs').promises
 
-const logEvents = require('./logEvents');
-const EventEmitter = require('events')
+// const logEvents = require('./logEvents');
+// const EventEmitter = require('events')
 
-class Emitter extends EventEmitter { }
+// class Emitter extends EventEmitter { }
 
-// initialize object
-const myEmitter = new Emitter()
+// // initialize object
+// const myEmitter = new Emitter()
 
-myEmitter.on('log', (msg, fileName) => logEvents(msg, fileName))
+// myEmitter.on('log', (msg, fileName) => logEvents(msg, fileName))
 
 const PORT = process.env.PORT || 3500;
 
@@ -23,6 +24,7 @@ const serveFile = async (filePath, contentType, response) => {
         )
         const data = contentType === 'application/json'
             ? JSON.parse(rawData) : rawData;
+            
         response.writeHead(
             filePath.includes('404.html') ? 404 : 200,
             { 'Content-Type': contentType })
@@ -39,7 +41,8 @@ const serveFile = async (filePath, contentType, response) => {
 
 const server = http.createServer((req, res) => {
     console.log(req.url, req.method)
-    myEmitter.emit('log', `${req.url}\t${req.method}`, 'reqLog.txt')
+    
+    // myEmitter.emit('log', `${req.url}\t${req.method}`, 'reqLog.txt')
 
     const extension = path.extname(req.url)
 
@@ -115,5 +118,3 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`))
-
-

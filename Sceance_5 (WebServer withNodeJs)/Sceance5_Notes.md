@@ -1,6 +1,4 @@
-# Créer un serveur web avec Node.js (module `http`) — Résumé complet
-
-Ce mémo résume **comment créer un serveur web sans Express** en Node.js, en s’inspirant du code que tu as envoyé : serveur HTTP, routes/fichiers statiques, `Content-Type`, erreurs, logs avec `EventEmitter`, redirections, et port.
+# Créer un serveur web avec Node.js (module `http`) — Sceance 5
 
 ---
 
