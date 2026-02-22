@@ -1,5 +1,5 @@
 
-# 📘 Guide Complet – Authentification Sans Token (Projet MVC Express)
+# 📘 Guide Complet – Authentification Sans Token (Projet MVC Express) - Sceance 10
 
 
 # 1️⃣ Définition : Authentification sans token
