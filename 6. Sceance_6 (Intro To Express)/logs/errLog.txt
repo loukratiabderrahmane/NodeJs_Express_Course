@@ -1,2 +1,0 @@
-2026-02-13	13:56:14	570ce35e-47be-4a00-a8b6-e374dded29ff	Error: Not allowed by CORS
-2026-02-13	21:34:03	d5db6d47-5fe6-4c63-a211-5e1ce12791a2	Error: Not allowed by CORS
