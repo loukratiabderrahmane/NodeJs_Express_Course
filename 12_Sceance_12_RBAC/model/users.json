@@ -1,0 +1,20 @@
+[
+  {
+    "username": "Abdo123",
+    "roles": { "Editor": 1984, "User": 2001 },
+    "pwd": "$2b$10$J0aq500KSXjMAJpoWqlzh.pSg2RAP94pFWIDCBleRhzHEDkWtCXDa",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFiZG8xMjMiLCJpYXQiOjE3NzIxMDM1NjUsImV4cCI6MTc3MjE4OTk2NX0.EQ_tk3FiuvyWelx9qnq-cKDGy24DEtAv5NSTt411OW8"
+  },
+  {
+    "username": "Abdo",
+    "roles": { "Admin": 5150, "Editor": 1984, "User": 2001 },
+    "pwd": "$2b$10$.7OOgIkmNXJXo/a.DoUDjeHxAGq/hXIH/SeGiLfmWqFUGM2IFR5LG",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFiZG8iLCJpYXQiOjE3NzIxMDM2MzcsImV4cCI6MTc3MjE5MDAzN30.yWWCebUbByGQ8xq12YdptM1VsHDoHHKFLLTHcfzzcMY"
+  },
+  {
+    "username": "Abdo12",
+    "roles": { "User": 2001 },
+    "pwd": "$2b$10$vlXe2f44XlAWuqRgbSH7ieKltsp1pEfTbCU1IK.9WQpb8csyoWiQG",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFiZG8xMiIsImlhdCI6MTc3MjEwMzcwNSwiZXhwIjoxNzcyMTkwMTA1fQ.hMVWtr1F5swVU4zZ-WQiduMMT5hGJOmU2YUVQk41HyM"
+  }
+]

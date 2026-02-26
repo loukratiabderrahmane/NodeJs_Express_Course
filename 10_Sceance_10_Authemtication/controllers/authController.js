@@ -12,7 +12,7 @@ const handleAuth = async (req, res) => {
     if (!UserFound) return res.status(404).json('User not Found !');
     const match = await bcrypt.compare(pwd, UserFound.pwd)
     if (!match) return res.status(401).json({ message: 'Username or Password not  correct !' })
-    res.json({
+        res.json({
         message: `${user} Logged in Succssecfully`
     })
 }
