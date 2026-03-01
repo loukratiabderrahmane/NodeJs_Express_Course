@@ -120,12 +120,11 @@ npm start
 # 📈 GitHub Stats (Dynamic)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=loukratiabderrahmane&show_icons=true&hide_title=true&include_all_commits=true&count_private=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loukratiabderrahmane&layout=compact" height="165"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=loukratiabderrahmane&show_icons=true&theme=dark" height="165"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=loukratiabderrahmane&layout=compact&theme=dark" height="165"/>
 </p>
-
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=loukratiabderrahmane" height="170"/>
+  <img src="https://streak-stats.demolab.com?user=loukratiabderrahmane&theme=dark&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
