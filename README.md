@@ -17,7 +17,9 @@ This repository documents my complete backend development journey using **Node.j
 
 It is structured in progressive learning sessions (*Sceances*), each focusing on a specific backend concept and implementation.
 
-This project represents my continuous growth as a Backend Developer 🚀
+This project represents my continuous growth as a Backend Developer 🚀  
+
+✅ I will continue contributing new sessions and advanced backend concepts.
 
 ---
 
@@ -31,8 +33,6 @@ This project represents my continuous growth as a Backend Developer 🚀
 - Custom logging system
 - HTTP Server creation
 
----
-
 ## 🌐 Express.js Core
 - Routing system
 - Middleware architecture
@@ -40,16 +40,12 @@ This project represents my continuous growth as a Backend Developer 🚀
 - Error handling
 - Modular routes
 
----
-
 ## 🧩 REST API & MVC Architecture
 - RESTful API design
 - Controllers separation
 - MVC Pattern
 - CORS configuration
 - Clean project structure
-
----
 
 ## 🔐 Authentication & Security
 - User Registration
@@ -59,14 +55,10 @@ This project represents my continuous growth as a Backend Developer 🚀
 - Token verification middleware
 - Role-Based Access Control (RBAC)
 
----
-
 ## 🗄 Database Integration
 - Database connection setup
 - Configuration separation
 - Production-ready backend structure
-
----
 
 ## 🏗 Advanced MVC Architecture
 - Full separation of concerns:
@@ -94,21 +86,7 @@ This project represents my continuous growth as a Backend Developer 🚀
 
 ---
 
-# 🎯 What This Project Demonstrates
-
-✔ Strong understanding of backend fundamentals  
-✔ Clean and scalable architecture design  
-✔ Secure authentication & authorization system  
-✔ Middleware design patterns  
-✔ REST API best practices  
-✔ Progressive engineering mindset  
-✔ Structured learning documentation  
-
----
-
 # 📂 Project Structure Overview
-
-Each folder represents a learning milestone:
 
 ```
 01 → Node Modules
@@ -136,6 +114,19 @@ cd 11_Sceance_11_JWT
 npm install
 npm start
 ```
+
+---
+
+# 📈 GitHub Stats (Dynamic)
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=loukratiabderrahmane&show_icons=true&hide_title=true&include_all_commits=true&count_private=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loukratiabderrahmane&layout=compact" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=loukratiabderrahmane" height="170"/>
+</p>
 
 ---
 
