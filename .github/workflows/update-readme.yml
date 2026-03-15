@@ -2,7 +2,7 @@ name: Auto-update README
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - '**/Sceance_*_Notes.md'
       - 'generate-readme.js'
