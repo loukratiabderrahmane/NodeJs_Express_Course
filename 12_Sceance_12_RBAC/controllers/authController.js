@@ -44,7 +44,12 @@ const handleAuth = async (req, res) => {
             path.join(__dirname, '..', 'model', 'users.json'),
             JSON.stringify(usersDB.users)
         )
-        res.cookie('jwt', refreshToken, { httponly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 })
+        res.cookie('jwt', refreshToken, {
+            httpOnly: true,
+            secure: process.env.NODE_ENV === 'production',
+            sameSite: 'Strict',
+            maxAge: 24 * 60 * 60 * 1000
+        })
         res.json({ accessToken })
     } else {
         res.status(401).json({ message: 'Username or Password not  correct !' })

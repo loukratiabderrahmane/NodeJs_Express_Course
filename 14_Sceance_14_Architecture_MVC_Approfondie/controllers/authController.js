@@ -37,7 +37,12 @@ const handleAuth = async (req, res, next) => {
             // Save Refresh Token with CURRENT user
             await authModel.saveRefreshToken(refreshToken, UserFound.id)
 
-            res.cookie('jwt', refreshToken, { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 })
+            res.cookie('jwt', refreshToken, {
+                httpOnly: true,
+                secure: process.env.NODE_ENV === 'production',
+                sameSite: 'Strict',
+                maxAge: 24 * 60 * 60 * 1000
+            })
             res.json({ accessToken })
         } else {
             res.status(401).json({ message: 'Username or Password not correct !' })

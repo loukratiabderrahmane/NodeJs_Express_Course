@@ -1,9 +1,14 @@
 const express = require('express')
 const router = express.Router()
-const { getAllEmployees, createNewEmployee, updateEmployee, deleteEmployee, getSpecificEmployee } = require('../../controllers/employeesController')
+const {
+    getAllEmployees,
+    createNewEmployee,
+    updateEmployee,
+    deleteEmployee,
+    getSpecificEmployee
+} = require('../../controllers/employeesController')
 const ROLES_LIST = require('../../config/roles_list')
 const verifyRoles = require('../../middleware/verifyRoles')
-
 
 router.route('/')
     .get(getAllEmployees)
